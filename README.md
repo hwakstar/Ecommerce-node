@@ -23,7 +23,7 @@
 
 <div align="center">
   <sub>The ecommerce project. Built with ❤︎ by
-    <a href="https://github.com/RafaelGoulartB">Rafael Goulart</a> and
+    <a href="https://github.com/RafaelGoulartB">Ihor Kuznetsov</a> and
     <a href="https://github.com/RafaelGoulartB/nodejs-ecommerce/graphs/contributors">
       contributors
     </a>
@@ -112,4 +112,4 @@ Check out the [contributing](./CONTRIBUTING.md) page to see the best places to f
 Released in 2020.
 This project is under the [MIT license](./LICENSE).
 
-Made with love by [RafaelGoulartB](https://github.com/RafaelGoulartB) 🚀
+Made with love by [hwakstar](https://github.com/hwakstar) 🚀
