@@ -1,0 +1,170 @@
+.products {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 20px;
+  width: 82%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Categories */
+.products aside .categories {
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 4px 2px 8px rgba(0,0,0,.05);
+}
+.products aside .categories .category {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #808080;
+  justify-content: space-between;
+  padding: 10px 8px;
+  border-bottom: 2px solid #F5F5F5;
+}
+.products aside .categories .category:hover {
+  background-color: #f5f5f5;
+}
+.products aside .categories .category .label {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+.products aside .categories .category .label .category-name {
+  margin-left: 15px;
+}
+/* Promo Code */
+.products aside .promo-code {
+  position: relative;
+  margin-top: 1em;
+  border-radius: 4px;
+  background-color: #fff;
+  height: 260px;
+  box-shadow: 4px 2px 8px rgba(0,0,0,.05);
+}
+.products aside .promo-code .texts {
+  position: absolute;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+.products aside .promo-code .texts .title {
+  margin-bottom: 2em;
+  color: #666666;
+}
+.products aside .promo-code .texts .desc {
+  color: #d1d1d1;
+}
+/* Nav Products */
+.products main nav {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 4px 2px 8px rgba(0,0,0,.05);
+}
+.products main nav .filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+  margin-left: 25px;
+}
+.products main nav .filters .filter a {
+  text-decoration: none;
+  color: #b3b3b3;
+  font-size: 14px;
+  font-weight: 600;
+}
+.products main nav .filters .filter-selected a {
+  color: #1875f0;
+  border-bottom: 3px solid #1875f0;
+  padding-bottom: 15px;
+}
+.products main nav .display {
+  display: flex;
+  align-items: center;
+}
+.products main nav .display a {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+/* Products */
+.products main .products-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.products main .products-list .product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 32%;
+  margin-top: 1.5em;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 4px 2px 8px rgba(0,0,0,.05);
+}
+.products main .products-list .product .labels {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.products main .products-list .product .labels .promotion {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  color: #b3b3b3;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  margin-left: 20px;
+  padding: .7em 1.2em;
+  font-weight: 700;
+}
+.products main .products-list .product .labels .actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 25px;
+}
+.products main .products-list .product .labels .actions .add-list {
+  margin-right: 20px;
+}
+.products main .products-list .product .labels .actions img {
+  width: 19px;
+  height: 18px;
+}
+.products main .products-list .product .product-img {
+  width: 157px;
+  height: 160px;
+}
+.products main .products-list .product .name {
+  width: 75%;
+  text-align: center;
+  color: #666666;
+  font-size: 14px;
+  font-weight: 500;
+  /* letter-spacing: .4px; */
+  line-height: 20px;
+  margin-bottom: 1.2em;
+  margin-top: 1.5em;
+}
+.products main .products-list .product .price {
+  display: flex;
+  align-items: center;
+  margin-top: 1.2em;
+  margin-bottom: 1.5em;
+}
+.products main .products-list .product .price .price-value {
+  color: #666666;
+  font-weight: 900;
+}
+.products main .products-list .product .price img {
+  width: 18px;
+  height: 18px;
+  margin-left: 10px;
+}
